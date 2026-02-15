@@ -9,7 +9,7 @@
   }
 }
 
-/* Smooth Fade-in Animation for Page Transitions */
+
 .animate-fadeIn {
   animation: fadeIn 0.5s ease-in-out;
 }
@@ -19,7 +19,7 @@
   to { opacity: 1; transform: translateY(0); }
 }
 
-/* Custom Scrollbar for a "Senior" Look */
+
 ::-webkit-scrollbar {
   width: 8px;
 }

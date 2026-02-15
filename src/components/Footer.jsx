@@ -1,4 +1,4 @@
-import React from 'react'; // <--- ADD THIS LINE
+import React from 'react'; 
 import { Link } from 'react-router-dom';
 import logo from '../assets/logo.png';
 import { FaXTwitter, FaLinkedinIn, FaFacebookF } from 'react-icons/fa6';
@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="bg-[#001529] text-white py-12 mt-auto">
       <div className="max-w-7xl mx-auto px-4">
-        {/* ... the rest of your code is perfect ... */}
+        
         <div className="flex flex-col md:flex-row justify-between items-center gap-8 border-b border-slate-700 pb-8">
           <Link to="/" className="flex items-center gap-2">
             <img src={logo} alt="HERO.IO Logo" className="w-8 h-8 object-contain" />
